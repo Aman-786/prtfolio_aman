@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&family=Sue+Ellen+Francisco&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+header{
+    width: 25rem;
+    height: 100%;
+    background-color: var(--background-color);
+    z-index: 1000;
+    box-shadow: 0px 10px 5px grey ;
+}
+:root{
+    --base-color:#e9ba1f;
+    --background-color: #161616;
+}
+.logo{
+    display:flex;
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    background-color: var(--base-color);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.title{
+    display: block;
+    font-size: 15px;
+    font-family:sans-serif ;
+    text-transform: none;
+    text-align: center;
+    color: white;
+    
+}
+.name{
+    display: block;
+    color: white;
+    text-transform: none;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+header li a{
+    
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 2.5rem;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 86, 86);
+    cursor: pointer;
+    border-radius: 25rem;
+    transition: 0.2s ease-in-out;
+    color: rgb(207, 202, 202);
+}
+header li a:hover{
+    background-color: var(--base-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
